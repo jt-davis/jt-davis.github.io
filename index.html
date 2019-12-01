@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>INF651 Final Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Cipher Decoder</h1>
+  <p>Enter the encoded text on the left, choose the type of cipher, and get the decoded text on the right.</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+      <h3>Encoded</h3>
+      <div class="form-group">
+        <textarea name="Coded" type="text" id="coded" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-2 text-center align-self-center">
+      <select id="ciphers">
+        <option value="ROT13">ROT13</option>
+        <option value="atbash">atbash</option>
+    </select>
+    </div>
+    <div class="col-sm-5">
+      <h3>Decoded</h3>        
+      <p id="answer">Decoded text will appear here</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-5">
+    </div>
+    <div class="col-sm-2 text-center align-self-center">
+      <p><button class="submitButton" onclick="chooseFunction()">Submit</button></p>
+    </div>
+    <div class="col-sm-5">
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer fixed-bottom text-center">
+  Created by Justin T. Davis
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

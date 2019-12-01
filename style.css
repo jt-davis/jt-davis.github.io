@@ -1,0 +1,41 @@
+.jumbotron {
+    background: rgb(34,170,161);
+    background: linear-gradient(0deg, rgba(34,170,161,1) 43%, rgba(19,111,99,1) 84%);
+}
+.jumbotron p {
+    color: black;
+}
+h1 {
+    color: black;
+}
+body {
+    background-color: black;
+}
+textarea {
+    resize: none;
+}
+h3, p {
+    color: #2589BD;
+}
+footer {
+    background-color: #22aaa1;
+    color: black;
+}
+.submitButton {
+    border-radius: 8px;
+    background-color: transparent;
+    color: #2589BD;
+    border: solid 1px;
+}
+.submitButton:hover {
+    background-color: #2589BD;
+    color: black;
+}
+#coded {
+    background-color: black;
+    color: #2589BD;
+}
+#ciphers {
+    background-color: black;
+    color: #2589BD;
+}
